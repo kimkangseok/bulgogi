@@ -32,15 +32,15 @@ class Solution02 {
 //				System.out.println(_strArrayClone[j]);
 				
 				if (iLen > jLen) {
-					System.out.println(_strTmp.substring(0, _strArrayClone[j].length()));
-					System.out.println(_strArrayClone[j]);
+//					System.out.println(_strTmp.substring(0, _strArrayClone[j].length()));
+//					System.out.println(_strArrayClone[j]);
 					if (_strArrayClone[j].compareTo(_strTmp.substring(0, _strArrayClone[j].length())) == 0) {
 						answer = false;
 						break;
 					}
 				} else {
-					System.out.println(_strArrayClone[j].substring(0, _strTmp.length()));
-					System.out.println(_strTmp);
+//					System.out.println(_strArrayClone[j].substring(0, _strTmp.length()));
+//					System.out.println(_strTmp);
 					if (_strTmp.compareTo(_strArrayClone[j].substring(0, _strTmp.length())) == 0) {
 						answer = false;
 						break;
